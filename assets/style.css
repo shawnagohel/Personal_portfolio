@@ -106,109 +106,27 @@
     width: 50%; 
     border-bottom: 3px solid;
   }
-  
-  
-  .trainer-1 {
-    background-image: url("../images/trainer-1.jpg");
-  
+
+/* Portfolio Grid  */
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 10px;
+    background-color: #2196F3;
+    padding: 10px;
   }
   
-  .trainer-2 {
-    background-image: url("../images/trainer-2.jpg");
-  
+  .grid-container > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
   }
   
-  .trainer-3 {
-    background-image: url("../images/trainer-3.jpg");
-  
+  .item1 {
+    grid-row: 1 / span 1;
   }
-  
-  .trainer-img {
-    width: 100%;
-    min-height: 300px;
-    display: flex;
-    padding: 15px;
-    align-items: flex-start;
-    background-size: cover;
-    position: relative;
-    overflow: hidden;
-  }
-  
-  .trainer-img::after {
-    content:“”;
-      width: 100%;
-      height: 100%;
-      background:linear-gradient(rgba(252,225,56,0.3),#024E76);
-      position:absolute;
-      top:0;
-      left:0;
-      opacity:0;
-      transition: 0.5s;
-  }
-  
-  .trainer-img h3 {
-    position: relative;
-    z-index: 9998;
-    margin-bottom: 5px;
-  }
-  
-  .trainer-img h4 {
-    position: relative;
-    z-index: 9998;
-  }
-  
-  .trainers {
-    width: 100%;
-    margin: 0 auto;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-  }
-  
-  
-  .trainer {
-    margin: 20px;
-    background: blue;
-    color: #fce138;
-    flex: 1;
-  }
-  
-  
-  .trainer-bio {
-    padding: 25px;
-    color: #fce138;
-    line-height: 1.3;
-  }
-  
-  
-  .text-left {
-    text-align: left;
-  }
-  
-  .text-right {
-    text-align: right;
-  }
-  
-  .flex-row {
-    display: flex;
-  }
-  
-  .trainer-bio h3 {
-    font-size: 28px;
-    
-  }
-  
-  .trainer-bio h4 {
-    font-weight: lighter;
-    font-size: 22px;
-    margin-bottom: 15px;
-  }
-  
-  .trainer-bio p {
-    font-size: 17px;
-    
-  }
-  
 
   
   /* MEDIA QUERY */
