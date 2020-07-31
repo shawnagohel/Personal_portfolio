@@ -6,7 +6,7 @@
   :root {
     --primary-color: #3e2b3b
     --secondary-color: #c6e2ff;
-    --tertiary-color:#fff0ff;
+    --tertiary-color:#AFEEEE;
   }
   
   header {
@@ -31,7 +31,7 @@
     font-size: 36px;
     color: var(--primary-color);
     margin: 0;
-    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    /* text-shadow: 0 0 10px rgba(0, 0, 0, 0.5); */
   }
   
   header a {
